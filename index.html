@@ -474,6 +474,32 @@
         <button class="close-btn" type="button" data-modal-close>
           <svg class="close-icon" width="10" height="10"><use href="./images/sprite.svg#icon-close"></use></svg>
         </button>
+        <h3 class="modal-title">Оставьте свои данные, мы вам перезвоним</h3>
+        <form class="modal-form" action="#">
+          <label class="">Имя
+            <input type="text" name="user-name" placeholder=" " required>
+            <svg width="18" height="18">
+              <use href="./images/sprite.svg#icon-person-footer"></use>
+            </svg>
+          </label>
+          <label class="">Телефон
+            <input type="tel" name="user-phone" placeholder=" " required>
+            <svg width="18" height="18">
+              <use href="./images/sprite.svg#icon-phone-footer"></use>
+            </svg>
+          </label>
+          <label class="">Почта
+            <input type="email" name="user-email" placeholder=" " required>
+            <svg width="18" height="18">
+              <use href="./images/sprite.svg#icon-email-footer"></use>
+            </svg>
+          </label>
+          <label class="">Комментарий
+            <textarea name="user-message" placeholder="Введите текст"></textarea>
+          </label>
+          <input type="checkbox" name="user-policy" value="accept-policy">
+          <button type="submit" class="send-form-btn">Отправить</button>
+        </form>
       </div>
     </div>
 
